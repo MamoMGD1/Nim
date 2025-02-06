@@ -41,6 +41,10 @@ Ensure you have the following installed:
   - Winning moves receive a **+5 score boost**.
   - Losing moves receive a **-2 penalty**.
 - **Data Export**: After training, the AI's learned strategies can be saved to `csv_files/nim_data.csv`.
+- **Training Milestones**:
+  - After 1,000+ Trainings: The model learns to prefer advantageous moves over obviously bad ones. It starts recognizing basic winning patterns.
+  - After 5,000+ Trainings: The model develops a deeper understanding of all possible moves, identifying sequences that lead to wins or losses.
+  - After 10,000+ Trainings: The model can accurately categorize moves into best, good, neutral, bad, and worst, optimizing its decision-making strategy effectively.
 
 ## Data Visualization
 After training, the AI's top and bottom 10 moves (based on score) are displayed using bar plots.
