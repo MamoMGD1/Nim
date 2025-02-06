@@ -27,7 +27,7 @@ Ensure you have the following installed:
 2. Specify how many training iterations the AI should perform.
 3. Choose whether to import previous training data (import for the best performance).
 4. Play against the AI once training is complete.
-5. You might also want to update the csv file if you have trained your agent.
+5. You might also want to update the csv file if you have trained your agent (DON'T DO IT IF YOU HAVEN'T IMPORTED THE DATA FROM THE CSV FILE).
 
 ## Gameplay Instructions
 - The game board consists of four piles: `[1, 3, 5, 7]`.
